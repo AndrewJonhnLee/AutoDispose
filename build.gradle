@@ -36,7 +36,8 @@ buildscript {
 }
 
 Set<String> mixedSourcesArtifacts = [
-    "autodispose"
+    "autodispose",
+    "android:autodispose-android"
 ]
 subprojects {
   repositories {

@@ -19,6 +19,7 @@ dependencies {
   api deps.rx.java
   api deps.androidx.annotations
   implementation deps.rx.android
+  implementation deps.kotlin.stdlib
 
   lintChecks project(':static-analysis:autodispose-lint')
 
